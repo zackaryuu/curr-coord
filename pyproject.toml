@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">= 3.8"
 
 [project.scripts]
-"zs.get-current-coord" = "zs.get_current_coord.__main__:cli"
+"zs.get-current-coord" = "get_current_coord.cli:cli"
 
 [build-system]
 requires = ["hatchling"]
@@ -25,4 +25,4 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/zs"]
+packages = ["src/get_current_coord"]
