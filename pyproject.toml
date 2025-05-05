@@ -1,7 +1,7 @@
 [project]
-name = "zs.get-current-coord"
+name = "zu.curr-coord"
 version = "0.1.0"
-description = "Add your description here"
+description = "Get the current coordinates of the mouse"
 authors = [
     { name = "ZackaryW", email = "gitzackw@gmail.com" }
 ]
@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">= 3.8"
 
 [project.scripts]
-"zs.get-current-coord" = "get_current_coord.cli:cli"
+"zu.curr-coord" = "get_current_coord.cli:cli"
 
 [build-system]
 requires = ["hatchling"]
