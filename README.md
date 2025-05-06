@@ -7,9 +7,14 @@ zu.curr-coord
 ```
 
 ## Install
-use 
+use zu
 ```bash
+zu get curr-coord
+```
 
+## Usage
+```bash
+zu.curr-coord
 ```
 
 
